@@ -58,6 +58,7 @@ public class FloodServiceImpl implements FloodService {
                                         .map(p -> PersonMedicalResponse.builder()
                                                 .firstName(p.getFirstName())
                                                 .lastName(p.getLastName())
+                                                .age(p.getAge())
                                                 .phone(p.getPhone())
                                                 .medicalRecord(p.getMedicalRecord())
                                                 .build())
