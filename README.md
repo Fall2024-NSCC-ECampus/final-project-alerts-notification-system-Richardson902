@@ -88,3 +88,27 @@ Handles firestation-related queries, such as listing individuals under its juris
 ## Notes
 - Ensure the database schema matches the expected structure to avoid runtime issues.
 - The application will throw meaningful errors (e.g., `ResourceNotFoundException`) for invalid queries or missing data.
+
+## Output
+Here are some examples hitting the urls and receiving the json via postman
+
+### Child Alert
+![Child-alert](https://github.com/Fall2024-NSCC-ECampus/final-project-alerts-notification-system-Richardson902/blob/main/output/child-alert.JPG)
+
+### Community Email
+![Email](https://github.com/Fall2024-NSCC-ECampus/final-project-alerts-notification-system-Richardson902/blob/main/output/email.JPG)
+
+### Fire Alert
+![Fire](https://github.com/Fall2024-NSCC-ECampus/final-project-alerts-notification-system-Richardson902/blob/main/output/fire-alert.JPG)
+
+### Flood Alert
+![Flood](https://github.com/Fall2024-NSCC-ECampus/final-project-alerts-notification-system-Richardson902/blob/main/output/flood.JPG)
+
+### Person Info
+![Person](https://github.com/Fall2024-NSCC-ECampus/final-project-alerts-notification-system-Richardson902/blob/main/output/person-info.JPG)
+
+### Phone Alert
+![Phone](https://github.com/Fall2024-NSCC-ECampus/final-project-alerts-notification-system-Richardson902/blob/main/output/phone-alert.JPG)
+
+### Firestation Alert
+![Firestation](https://github.com/Fall2024-NSCC-ECampus/final-project-alerts-notification-system-Richardson902/blob/main/output/station-number.JPG)
