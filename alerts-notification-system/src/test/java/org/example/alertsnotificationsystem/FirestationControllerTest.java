@@ -41,6 +41,7 @@ public class FirestationControllerTest {
         firestation.setCity("TestCity");
         firestationRepository.save(firestation);
 
+        // Currently there's a bug with testing when adding medical records. The test will pass but it leaves the database ugly. I'll fix it later.
         MedicalRecord medicalRecord1 = new MedicalRecord();
         medicalRecord1.setMedications(List.of("TestMedication1, 100mg"));
         medicalRecord1.setAllergies(List.of("TestAllergy1"));
